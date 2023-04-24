@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ts-expect-error-validator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "pashak09",
   "description": "A rule that enforces proper usage and validation of TypeScript's @ts-expect-error comments for easier error management",
   "license": "MIT",
@@ -13,6 +13,10 @@
     "validator",
     "error"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pashak09/eslint-plugin-ts-expect-error-validator"
+  },
   "scripts": {
     "lint": "eslint ./",
     "build": "rimraf ./dist && tsc -p tsconfig.build.json",
