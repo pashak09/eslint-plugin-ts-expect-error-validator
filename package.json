@@ -40,9 +40,7 @@
     "typescript": "^5.0.4"
   },
   "engines": {
-    "node": ">=16",
-    "npm": "please-use-yarn",
-    "yarn": "^1.22.5"
+    "node": ">=16"
   },
   "files": [
     "dist"
